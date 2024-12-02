@@ -11,7 +11,7 @@ keywords = ["ethereum"]
 categories = ["cryptography::cryptocurrencies"]
 
 [dependencies]
-tree_hash = "0.8.0"
+tree_hash = { git = "https://github.com/fiamma-chain/tree_hash.git", branch = "support_riscv" }
 ethereum_serde_utils = "0.7.0"
 ethereum_ssz = "0.7.0"
 serde = "1.0.0"
